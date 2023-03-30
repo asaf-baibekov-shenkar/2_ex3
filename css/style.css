@@ -348,3 +348,125 @@ footer {
 .second .sidebar .sidebar-bottom .letter:hover {
     background-color: azure;
 }
+
+.third .wrapper {
+    height: 1624px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.third .wrapper header {
+    background-color: var(--header-background-color);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 24px;
+}
+
+.third .wrapper header #button {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.third .wrapper main {
+    height: 995px;
+    display: flex;
+}
+
+.third .wrapper main .menu {
+    width: 372px;
+    height: 100%;
+    background-color: #E5E5E5;
+}
+
+.third .wrapper main .menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    padding-top: 105px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 18px;
+}
+
+.third .wrapper main .menu ul li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.third .wrapper main .menu ul li .circle {
+	width: var(--circle-size);
+	height: var(--circle-size);
+	border-radius: 50%;
+	background-color: var(--circle-color);
+}
+
+.third .wrapper main .menu ul li:not(:nth-child(3)) .circle {
+	visibility: hidden;
+}
+
+.third .wrapper main .menu ul li:not(:nth-child(3)):hover .circle {
+	visibility: visible;
+}
+
+.third .wrapper main #squares {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 132px;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.third .wrapper main #squares {
+    overflow-y: scroll;
+}
+
+.third .wrapper main #squares {
+    padding: 0 64px;
+}
+
+.third .wrapper main #squares .square {
+    margin-top: 123px;
+    margin-bottom: 123px;
+    background-color: black;
+}
+
+.third .wrapper main .side {
+    width: 104px;
+    background-color: #1847EF4D;
+}
+
+.third .wrapper section {
+    display: block;
+    height: 465px;
+    width: 100%;
+    background-color: #EBEF18;
+}
+
+@media only screen and (max-width: 850px) {
+    .third .wrapper main {
+        flex-direction: column;
+    }
+
+    .third .wrapper main .side {
+        display: none;
+    }
+
+    .third .wrapper main .menu {
+        width: unset;
+        height: 105px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .third .wrapper main .menu ul {
+        padding-top: unset;
+    }
+}
