@@ -73,10 +73,6 @@ header .container ul li .circle {
 	visibility: visible;
 }
 
-main {
-	height: var(--main-height);
-}
-
 footer {
 	background-color: var(--footer-background-color);
 	height: var(--footer-height);
@@ -86,6 +82,7 @@ footer {
 	display: table;
 	overflow-y: scroll;
     margin: 0 auto;
+    height: var(--main-height);
 }
 
 .first main .container {
@@ -246,4 +243,108 @@ footer {
 .first main .content .rectangles .right .right-bottom .right-bottom-left-bottom .rectangle {
     width: 110px;
     height: 58px;
+}
+
+.second {
+    position: relative;
+}
+
+.second main {
+    display: flex;
+    overflow-y: scroll;
+}
+
+.second main .container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 119px;
+}
+
+.second main .content {
+    display: flex;
+    width: 969px;
+    height: 100%;
+    gap: 55px;
+}
+
+.second main .content .rectangle {
+    height: 299px;
+    width: 457px;
+    background-color: #C4C4C4;
+}
+
+.second main .content .left,
+.second main .content .right {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.second main .content .right {
+    padding-top: 168px;
+}
+
+.second main .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 169px;
+    background-color: #EBEF18;
+}
+
+.second footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+}
+
+.second .sidebar .sidebar-top {
+    flex: 1;
+    display: flex;
+    height: 696px;
+    gap: 9px;
+}
+
+.second .sidebar .sidebar-top .sidebar-top-left,
+.second .sidebar .sidebar-top .sidebar-top-right {
+    width: 80px;
+}
+
+.second .sidebar .sidebar-top .square {
+    width: 80px;
+    height: 80px;
+}
+
+.second .sidebar .sidebar-top .sidebar-top-left .square {
+    background-color: black;
+}
+
+.second .sidebar .sidebar-top .sidebar-top-left .square:nth-child(1) {
+    margin-top: 119px;
+}
+
+.second .sidebar .sidebar-top .sidebar-top-left .square:nth-child(2) {
+    margin-top: 417px;
+}
+
+.second .sidebar .sidebar-top .sidebar-top-right .square {
+    margin-top: 247px;
+    background-color: white;
+}
+
+.second .sidebar .sidebar-bottom {
+    width: 100%
+}
+
+.second .sidebar .sidebar-bottom .letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 169px;
+    height: 169px;
+    font-size: 96px;
+}
+
+.second .sidebar .sidebar-bottom .letter:hover {
+    background-color: azure;
 }
