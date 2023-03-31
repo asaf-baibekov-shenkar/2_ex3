@@ -422,20 +422,25 @@ footer {
     column-gap: 132px;
     height: 100%;
     background-color: #F5F5F5;
+    overflow-y: scroll;
 }
 
-.third .wrapper main #squares {
-    overflow-y: scroll;
+.third .wrapper main #squares .square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 123px;
+    margin-bottom: 123px;
+    background-color: black;
+}
+
+.third .wrapper main #squares .square.matched {
+    background-color: green;
 }
 
 .third .wrapper main #squares {
     padding: 0 64px;
-}
-
-.third .wrapper main #squares .square {
-    margin-top: 123px;
-    margin-bottom: 123px;
-    background-color: black;
 }
 
 .third .wrapper main .side {
