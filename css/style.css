@@ -89,7 +89,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .first main .content .titles h1 {
@@ -124,7 +124,7 @@ footer {
 }
 
 .first main .content .rectangles .left {
-    padding-top: 44px;
+    margin-top: 44px;
 }
 
 .first main .content .rectangles .left .rectangle:nth-child(1) {
@@ -242,7 +242,7 @@ footer {
     flex: 1;
     display: flex;
     justify-content: center;
-    padding-top: 119px;
+    margin-top: 119px;
 }
 
 .second main .content {
@@ -266,7 +266,7 @@ footer {
 }
 
 .second main .content .right {
-    padding-top: 168px;
+    margin-top: 168px;
 }
 
 .second main .sidebar {
@@ -336,7 +336,7 @@ footer {
 .third .wrapper {
     height: 1624px;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: #F5F5F5;
 }
 
 .third .wrapper header {
@@ -345,12 +345,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: end;
-    padding: 0 24px;
 }
 
 .third .wrapper header #button {
     width: 80px;
     height: 80px;
+    margin-right: 24px;
     background-color: black;
     cursor: pointer;
 }
@@ -370,7 +370,7 @@ footer {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-    padding-top: 105px;
+    margin-top: 105px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -416,7 +416,7 @@ footer {
 }
 
 .third .wrapper main #squares {
-    padding: 0 64px;
+    margin: 0 64px;
 }
 
 .third .wrapper main .side {
@@ -448,6 +448,6 @@ footer {
     }
 
     .third .wrapper main .menu ul {
-        padding-top: unset;
+        margin-top: unset;
     }
 }
