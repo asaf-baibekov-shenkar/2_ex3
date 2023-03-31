@@ -229,6 +229,14 @@ footer {
     height: 58px;
 }
 
+
+
+
+
+
+
+
+
 .second {
     position: relative;
 }
@@ -269,7 +277,7 @@ footer {
     margin-top: 168px;
 }
 
-.second main .sidebar {
+.second main aside {
     display: flex;
     flex-direction: column;
     width: 169px;
@@ -282,45 +290,49 @@ footer {
     left: 0;
 }
 
-.second .sidebar .sidebar-top {
+.second aside {
+    display: block;
+}
+
+.second aside .sidebar-top {
     flex: 1;
     display: flex;
     height: 696px;
     gap: 9px;
 }
 
-.second .sidebar .sidebar-top .sidebar-top-left,
-.second .sidebar .sidebar-top .sidebar-top-right {
+.second aside .sidebar-top .sidebar-top-left,
+.second aside .sidebar-top .sidebar-top-right {
     width: 80px;
 }
 
-.second .sidebar .sidebar-top .square {
+.second aside .sidebar-top .square {
     width: 80px;
     height: 80px;
 }
 
-.second .sidebar .sidebar-top .sidebar-top-left .square {
+.second aside .sidebar-top .sidebar-top-left .square {
     background-color: black;
 }
 
-.second .sidebar .sidebar-top .sidebar-top-left .square:nth-child(1) {
+.second aside .sidebar-top .sidebar-top-left .square:nth-child(1) {
     margin-top: 119px;
 }
 
-.second .sidebar .sidebar-top .sidebar-top-left .square:nth-child(2) {
+.second aside .sidebar-top .sidebar-top-left .square:nth-child(2) {
     margin-top: 417px;
 }
 
-.second .sidebar .sidebar-top .sidebar-top-right .square {
+.second aside .sidebar-top .sidebar-top-right .square {
     margin-top: 247px;
     background-color: white;
 }
 
-.second .sidebar .sidebar-bottom {
+.second aside .sidebar-bottom {
     width: 100%
 }
 
-.second .sidebar .sidebar-bottom .letter {
+.second aside .sidebar-bottom .letter {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -329,9 +341,19 @@ footer {
     font-size: 96px;
 }
 
-.second .sidebar .sidebar-bottom .letter:hover {
+.second aside .sidebar-bottom .letter:hover {
     background-color: azure;
 }
+
+
+
+
+
+
+
+
+
+
 
 .third .wrapper {
     height: 1624px;
