@@ -42,34 +42,18 @@ header ul li {
 	align-items: center;
 }
 
-header .container ul li .circle {
+.menu ul li .circle {
 	width: var(--circle-size);
 	height: var(--circle-size);
 	border-radius: 50%;
 	background-color: var(--circle-color);
 }
 
-.first header .container ul li:not(:nth-child(1)) .circle {
+.menu ul li:not([selected]) .circle {
 	visibility: hidden;
 }
 
-.first header .container ul li:not(:nth-child(1)):hover .circle {
-	visibility: visible;
-}
-
-.second header .container ul li:not(:nth-child(2)) .circle {
-	visibility: hidden;
-}
-
-.second header .container ul li:not(:nth-child(2)):hover .circle {
-	visibility: visible;
-}
-
-.third header .container ul li:not(:nth-child(3)) .circle {
-	visibility: hidden;
-}
-
-.third header .container ul li:not(:nth-child(3)):hover .circle {
+.menu ul li:hover .circle {
 	visibility: visible;
 }
 
@@ -404,14 +388,6 @@ footer {
 	height: var(--circle-size);
 	border-radius: 50%;
 	background-color: var(--circle-color);
-}
-
-.third .wrapper main .menu ul li:not(:nth-child(3)) .circle {
-	visibility: hidden;
-}
-
-.third .wrapper main .menu ul li:not(:nth-child(3)):hover .circle {
-	visibility: visible;
 }
 
 .third .wrapper main #squares {
