@@ -414,6 +414,7 @@ footer {
 
 .third .wrapper main #squares {
     flex: 1;
+    padding: 0 64px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -435,10 +436,6 @@ footer {
 
 .third .wrapper main #squares .square.matched {
     background-color: green;
-}
-
-.third .wrapper main #squares {
-    margin: 0 64px;
 }
 
 .third .wrapper main .side {
