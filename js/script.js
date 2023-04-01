@@ -2,7 +2,7 @@ class MemoryGame {
 	constructor() {
 		this.squares = document.querySelector("#squares");
 		this.button = document.querySelector("#button");
-		this.numSquares = 0;
+		this.numSquares = 7;
 		this.lettersArray = [];
 		this.init();
 	}
